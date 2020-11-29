@@ -6,6 +6,7 @@ import java.io.Serializable;
 @Entity
 @Table(name = "person")
 public class Person implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

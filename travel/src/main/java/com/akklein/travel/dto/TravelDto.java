@@ -1,4 +1,4 @@
 package com.akklein.travel.dto;
 
-public class PersonDTO {
+public class TravelDto {
 }
