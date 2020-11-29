@@ -1,10 +1,16 @@
 package com.akklein.travel.dto;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class PersonDto {
+
+    @ApiModelProperty(value = "Passenger Id")
     private Long id;
 
+    @ApiModelProperty(value = "Passenger name")
     private String name;
 
+    @ApiModelProperty(value = "Passenger birth date")
     private String birthDate;
 
     public Long getId() {
