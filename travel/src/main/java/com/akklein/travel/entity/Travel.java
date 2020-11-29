@@ -1,7 +1,5 @@
 package com.akklein.travel.entity;
 
-import io.swagger.annotations.ApiModelProperty;
-
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -11,7 +9,6 @@ public class Travel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @ApiModelProperty(value = "Id da viagem")
     private Long id;
 
     @Column(name = "flight", nullable = false)
